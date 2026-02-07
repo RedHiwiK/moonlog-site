@@ -360,7 +360,7 @@ a:hover {
 .hero p {
   color: var(--color-text-secondary);
   font-size: 1.05rem;
-  max-width: 480px;
+  max-width: 640px;
   margin: 0 auto 32px;
   line-height: 1.7;
 }
