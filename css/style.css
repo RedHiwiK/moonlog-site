@@ -159,6 +159,39 @@ a:hover {
   border-bottom-color: var(--color-primary);
 }
 
+/* ---------- Language Switch ---------- */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+  background: var(--color-bg);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.lang-switch button {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all var(--transition);
+}
+
+.lang-switch button.active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.lang-switch button:hover:not(.active) {
+  color: var(--color-text);
+}
+
 /* ---------- Main Content ---------- */
 .main-content {
   flex: 1;
